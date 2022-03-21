@@ -1,5 +1,6 @@
 
 from scapy.all import *
+import socket
 import datetime
 # Gets the current date and returns in M/D/YYYY format
 def getDate():
