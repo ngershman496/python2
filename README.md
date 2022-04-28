@@ -1,2 +1,8 @@
-# python2
-This is a repository for SEC307 Python 2
+# SEC307 Python 2
+Assignment 6 is a webscraper script with the following requirements:
+  Implement the ‘selenium’ module
+  Ask the user for a website url (limit format to ‘www.<url>.com’)
+  Use selenium to launch the firefox browser
+  Navigate to the input url
+  
+Author: Nathan Gershman
