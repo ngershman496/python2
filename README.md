@@ -1,9 +1,16 @@
 # SEC307 Python 2
 Assignment 7 is a webscraper script with the following requirements:
 #
-1. Use the python ‘requests’ module to download the site for the following URL: https://www.blackhat.com/html/bh-media-archives/bh-archives-2000.html
-2. Use the select() method to create an array of presentations that were given at BlackHat USA in 2000.
-3. From that object, create an array of only the names of the presenters
-4. Export that array to the command line for the user to see the list of presenters
+1. Have the main.py file execute with exactly 1 argument, which will be an ip address
+2. Implement the pygeoip package
+3. Analyze the provided ip address and return to the user the following information:
+  a. Country name
+  b. City name
+  c. Postal code
+  d. Organization name (if it exists)
+  e. ISP Provider name
+4. Include error handling, including but not limited to:
+  a. The ip address passed in as argument
+  b. The module-specific GeoIPError
   
 Author: Nathan Gershman
